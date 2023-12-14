@@ -1,0 +1,335 @@
+2023-12-14 18:38:59,270 - ERROR - Endpoint: /form/display, Method: POST, Data:{'user_id': 3, 'form_id': 10}, Some error ocoured:
+Traceback (most recent call last):
+  File "D:\Forms\routes\form_routes.py", line 54, in display_form
+    await log_info("/form/display", request.method, data, status, response)
+  File "D:\Forms\logs\logs_setup.py", line 54, in log_info
+    peinr("------------------------------------------------------------------------------")
+    ^^^^^
+NameError: name 'peinr' is not defined. Did you mean: 'print'?
+2023-12-14 18:39:03,680 - ERROR - Endpoint: /form/display, Method: POST, Data:{'user_id': 3, 'form_id': 10}, Some error ocoured:
+Traceback (most recent call last):
+  File "D:\Forms\routes\form_routes.py", line 54, in display_form
+    await log_info("/form/display", request.method, data, status, response)
+  File "D:\Forms\logs\logs_setup.py", line 54, in log_info
+    peinr("------------------------------------------------------------------------------")
+    ^^^^^
+NameError: name 'peinr' is not defined. Did you mean: 'print'?
+2023-12-14 18:39:13,676 - ERROR - Endpoint: /form/display, Method: POST, Data:{'user_id': 3, 'form_id': 10}, Some error ocoured:
+Traceback (most recent call last):
+  File "D:\Forms\routes\form_routes.py", line 54, in display_form
+    await log_info("/form/display", request.method, data, status, response)
+  File "D:\Forms\logs\logs_setup.py", line 54, in log_info
+    peinr("------------------------------------------------------------------------------")
+    ^^^^^
+NameError: name 'peinr' is not defined. Did you mean: 'print'?
+2023-12-14 19:07:32,153 - ERROR - Endpoint: /user/register, Method: POST, Data:{'username': 'himanshukr12333'}, Some error ocoured:
+Traceback (most recent call last):
+  File "D:\Forms\routes\user_routes.py", line 18, in reg_user
+    response,status = reg_user_transaction(data)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Forms\transactions\user.py", line 15, in reg_user_transaction
+    db.rollback_transaction()
+  File "D:\Forms\assets\db.py", line 60, in rollback_transaction
+    print(f"Transaction rolled back due to error: {str(e)}")
+                                                       ^
+UnboundLocalError: cannot access local variable 'e' where it is not associated with a value
+2023-12-14 19:09:14,992 - ERROR - Endpoint: /user/register, Method: POST, Data:{'username': 'himanshukr12333'}, Some error ocoured:
+Traceback (most recent call last):
+  File "D:\Forms\routes\user_routes.py", line 18, in reg_user
+    response,status = reg_user_transaction(data)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Forms\transactions\user.py", line 15, in reg_user_transaction
+    db.rollback_transaction()
+  File "D:\Forms\assets\db.py", line 60, in rollback_transaction
+    print(f"Transaction rolled back due to error: {str(e)}")
+                                                       ^
+UnboundLocalError: cannot access local variable 'e' where it is not associated with a value
+2023-12-14 19:10:38,338 - ERROR - Endpoint: /user/register, Method: POST, Data:{'username': 'himanshukr133'}, Some error ocoured:
+Traceback (most recent call last):
+  File "D:\Forms\routes\user_routes.py", line 18, in reg_user
+    response,status = reg_user_transaction(data)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Forms\transactions\user.py", line 15, in reg_user_transaction
+    db.rollback_transaction()
+  File "D:\Forms\assets\db.py", line 60, in rollback_transaction
+    print(f"Transaction rolled back due to error: {str(e)}")
+                                                       ^
+UnboundLocalError: cannot access local variable 'e' where it is not associated with a value
+2023-12-14 19:10:58,167 - ERROR - Endpoint: /user/register, Method: POST, Data:{'username': 'himanshukr133'}, Some error ocoured:
+Traceback (most recent call last):
+  File "D:\Forms\routes\user_routes.py", line 18, in reg_user
+    response,status = reg_user_transaction(data)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Forms\transactions\user.py", line 15, in reg_user_transaction
+    db.rollback_transaction()
+  File "D:\Forms\assets\db.py", line 60, in rollback_transaction
+    print(f"Transaction rolled back due to error: {str(e)}")
+                                                       ^
+UnboundLocalError: cannot access local variable 'e' where it is not associated with a value
+2023-12-14 19:11:12,245 - ERROR - Endpoint: /user/register, Method: POST, Data:{'username': 'himanshukr133'}, Some error ocoured:
+Traceback (most recent call last):
+  File "D:\Forms\routes\user_routes.py", line 18, in reg_user
+    response,status = reg_user_transaction(data)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Forms\transactions\user.py", line 15, in reg_user_transaction
+    db.rollback_transaction()
+  File "D:\Forms\assets\db.py", line 60, in rollback_transaction
+    print(f"Transaction rolled back due to error: {str(e)}")
+                                                       ^
+UnboundLocalError: cannot access local variable 'e' where it is not associated with a value
+2023-12-14 19:12:25,616 - ERROR - Endpoint: /user/register, Method: POST, Data:{'username': 'himanshukr12333'}, Some error ocoured:
+Traceback (most recent call last):
+  File "D:\Forms\routes\user_routes.py", line 18, in reg_user
+    response,status = reg_user_transaction(data)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Forms\transactions\user.py", line 15, in reg_user_transaction
+    db.rollback_transaction()
+  File "D:\Forms\assets\db.py", line 59, in rollback_transaction
+    print(f"Transaction rolled back due to error: {str(e)}")
+                                                       ^
+NameError: name 'e' is not defined
+2023-12-14 19:12:51,280 - ERROR - Endpoint: /user/register, Method: POST, Data:{'username': 'himanshukr12333'}, Some error ocoured:
+Traceback (most recent call last):
+  File "D:\Forms\routes\user_routes.py", line 18, in reg_user
+    response,status = reg_user_transaction(data)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Forms\transactions\user.py", line 15, in reg_user_transaction
+    db.rollback_transaction()
+TypeError: DatabaseTransaction.rollback_transaction() missing 1 required positional argument: 'e'
+2023-12-14 19:17:25,778 - ERROR - Endpoint: /user/get, Method: POST, Data:{'user_id': 3}, Some error ocoured:
+Traceback (most recent call last):
+  File "D:\Forms\routes\user_routes.py", line 35, in get_user
+    response,status = get_user_transaction(data)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Forms\transactions\user.py", line 29, in get_user_transaction
+    return result,status
+                  ^^^^^^
+NameError: name 'status' is not defined
+2023-12-14 19:17:42,168 - ERROR - Endpoint: /user/get, Method: POST, Data:{'user_id': 3}, Some error ocoured:
+Traceback (most recent call last):
+  File "D:\Forms\routes\user_routes.py", line 35, in get_user
+    response,status = get_user_transaction(data)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Forms\transactions\user.py", line 29, in get_user_transaction
+    return result,status
+                  ^^^^^^
+NameError: name 'status' is not defined
+2023-12-14 19:18:36,406 - ERROR - Endpoint: /user/get, Method: POST, Data:{'user_id': 3}, Some error ocoured:
+Traceback (most recent call last):
+  File "D:\Forms\routes\user_routes.py", line 35, in get_user
+    response,status = get_user_transaction(data)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Forms\transactions\user.py", line 29, in get_user_transaction
+    return result,status
+                  ^^^^^^
+NameError: name 'status' is not defined
+2023-12-14 19:19:15,663 - ERROR - Endpoint: /user/delete, Method: DELETE, Data:{'user_id': 4}, Some error ocoured:
+Traceback (most recent call last):
+  File "D:\Forms\assets\db.py", line 32, in execute_query
+    self.cursor.execute(query)
+  File "D:\Forms\venv\Lib\site-packages\pymysql\cursors.py", line 148, in execute
+    while self.nextset():
+          ^^^^^^^^^^^^^^
+  File "D:\Forms\venv\Lib\site-packages\pymysql\cursors.py", line 98, in nextset
+    return self._nextset(False)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Forms\venv\Lib\site-packages\pymysql\cursors.py", line 85, in _nextset
+    conn = self._get_db()
+           ^^^^^^^^^^^^^^
+  File "D:\Forms\venv\Lib\site-packages\pymysql\cursors.py", line 67, in _get_db
+    raise err.ProgrammingError("Cursor closed")
+pymysql.err.ProgrammingError: Cursor closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Forms\routes\user_routes.py", line 52, in del_user
+    response,status = delete_user_transaction(data)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Forms\transactions\user.py", line 39, in delete_user_transaction
+    delete_user(db,data.get("user_id"))
+  File "D:\Forms\queries\user.py", line 13, in delete_user
+    result = db.execute_query(query)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Forms\assets\db.py", line 39, in execute_query
+    self.connection.rollback()
+  File "D:\Forms\venv\Lib\site-packages\pymysql\connections.py", line 487, in rollback
+    self._execute_command(COMMAND.COM_QUERY, "ROLLBACK")
+  File "D:\Forms\venv\Lib\site-packages\pymysql\connections.py", line 840, in _execute_command
+    raise err.InterfaceError(0, "")
+pymysql.err.InterfaceError: (0, '')
+2023-12-14 19:20:35,205 - ERROR - Endpoint: /user/delete, Method: DELETE, Data:{'user_id': 4}, Some error ocoured:
+Traceback (most recent call last):
+  File "D:\Forms\assets\db.py", line 32, in execute_query
+    self.cursor.execute(query)
+  File "D:\Forms\venv\Lib\site-packages\pymysql\cursors.py", line 148, in execute
+    while self.nextset():
+          ^^^^^^^^^^^^^^
+  File "D:\Forms\venv\Lib\site-packages\pymysql\cursors.py", line 98, in nextset
+    return self._nextset(False)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Forms\venv\Lib\site-packages\pymysql\cursors.py", line 85, in _nextset
+    conn = self._get_db()
+           ^^^^^^^^^^^^^^
+  File "D:\Forms\venv\Lib\site-packages\pymysql\cursors.py", line 67, in _get_db
+    raise err.ProgrammingError("Cursor closed")
+pymysql.err.ProgrammingError: Cursor closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Forms\routes\user_routes.py", line 52, in del_user
+    response,status = delete_user_transaction(data)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Forms\transactions\user.py", line 39, in delete_user_transaction
+    delete_user(db,data.get("user_id"))
+  File "D:\Forms\queries\user.py", line 13, in delete_user
+    result = db.execute_query(query)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Forms\assets\db.py", line 39, in execute_query
+    self.connection.rollback()
+  File "D:\Forms\venv\Lib\site-packages\pymysql\connections.py", line 487, in rollback
+    self._execute_command(COMMAND.COM_QUERY, "ROLLBACK")
+  File "D:\Forms\venv\Lib\site-packages\pymysql\connections.py", line 840, in _execute_command
+    raise err.InterfaceError(0, "")
+pymysql.err.InterfaceError: (0, '')
+2023-12-14 19:22:32,422 - ERROR - Endpoint: /user/delete, Method: DELETE, Data:{'user_id': 4}, Some error ocoured:
+Traceback (most recent call last):
+  File "D:\Forms\assets\db.py", line 32, in execute_query
+    self.cursor.execute(query)
+  File "D:\Forms\venv\Lib\site-packages\pymysql\cursors.py", line 148, in execute
+    while self.nextset():
+          ^^^^^^^^^^^^^^
+  File "D:\Forms\venv\Lib\site-packages\pymysql\cursors.py", line 98, in nextset
+    return self._nextset(False)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Forms\venv\Lib\site-packages\pymysql\cursors.py", line 85, in _nextset
+    conn = self._get_db()
+           ^^^^^^^^^^^^^^
+  File "D:\Forms\venv\Lib\site-packages\pymysql\cursors.py", line 67, in _get_db
+    raise err.ProgrammingError("Cursor closed")
+pymysql.err.ProgrammingError: Cursor closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Forms\routes\user_routes.py", line 52, in del_user
+    response,status = delete_user_transaction(data)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Forms\transactions\user.py", line 39, in delete_user_transaction
+    delete_user(db,data.get("user_id"))
+  File "D:\Forms\queries\user.py", line 13, in delete_user
+    result = db.execute_query(query)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Forms\assets\db.py", line 41, in execute_query
+    self.connection.rollback()
+  File "D:\Forms\venv\Lib\site-packages\pymysql\connections.py", line 487, in rollback
+    self._execute_command(COMMAND.COM_QUERY, "ROLLBACK")
+  File "D:\Forms\venv\Lib\site-packages\pymysql\connections.py", line 840, in _execute_command
+    raise err.InterfaceError(0, "")
+pymysql.err.InterfaceError: (0, '')
+2023-12-14 19:23:51,733 - ERROR - Endpoint: /user/delete, Method: DELETE, Data:{'user_id': 4}, Some error ocoured:
+Traceback (most recent call last):
+  File "D:\Forms\assets\db.py", line 32, in execute_query
+    self.cursor.execute(query)
+  File "D:\Forms\venv\Lib\site-packages\pymysql\cursors.py", line 148, in execute
+    while self.nextset():
+          ^^^^^^^^^^^^^^
+  File "D:\Forms\venv\Lib\site-packages\pymysql\cursors.py", line 98, in nextset
+    return self._nextset(False)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Forms\venv\Lib\site-packages\pymysql\cursors.py", line 85, in _nextset
+    conn = self._get_db()
+           ^^^^^^^^^^^^^^
+  File "D:\Forms\venv\Lib\site-packages\pymysql\cursors.py", line 67, in _get_db
+    raise err.ProgrammingError("Cursor closed")
+pymysql.err.ProgrammingError: Cursor closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Forms\routes\user_routes.py", line 52, in del_user
+    response,status = delete_user_transaction(data)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Forms\transactions\user.py", line 39, in delete_user_transaction
+    delete_user(db,data.get("user_id"))
+  File "D:\Forms\queries\user.py", line 14, in delete_user
+    result = db.execute_query(query)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Forms\assets\db.py", line 41, in execute_query
+    self.connection.rollback()
+  File "D:\Forms\venv\Lib\site-packages\pymysql\connections.py", line 487, in rollback
+    self._execute_command(COMMAND.COM_QUERY, "ROLLBACK")
+  File "D:\Forms\venv\Lib\site-packages\pymysql\connections.py", line 840, in _execute_command
+    raise err.InterfaceError(0, "")
+pymysql.err.InterfaceError: (0, '')
+2023-12-14 19:23:59,527 - ERROR - Endpoint: /user/delete, Method: DELETE, Data:{'user_id': 4}, Some error ocoured:
+Traceback (most recent call last):
+  File "D:\Forms\assets\db.py", line 32, in execute_query
+    self.cursor.execute(query)
+  File "D:\Forms\venv\Lib\site-packages\pymysql\cursors.py", line 148, in execute
+    while self.nextset():
+          ^^^^^^^^^^^^^^
+  File "D:\Forms\venv\Lib\site-packages\pymysql\cursors.py", line 98, in nextset
+    return self._nextset(False)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Forms\venv\Lib\site-packages\pymysql\cursors.py", line 85, in _nextset
+    conn = self._get_db()
+           ^^^^^^^^^^^^^^
+  File "D:\Forms\venv\Lib\site-packages\pymysql\cursors.py", line 67, in _get_db
+    raise err.ProgrammingError("Cursor closed")
+pymysql.err.ProgrammingError: Cursor closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Forms\routes\user_routes.py", line 52, in del_user
+    response,status = delete_user_transaction(data)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Forms\transactions\user.py", line 39, in delete_user_transaction
+    delete_user(db,data.get("user_id"))
+  File "D:\Forms\queries\user.py", line 14, in delete_user
+    result = db.execute_query(query)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Forms\assets\db.py", line 41, in execute_query
+    self.connection.rollback()
+  File "D:\Forms\venv\Lib\site-packages\pymysql\connections.py", line 487, in rollback
+    self._execute_command(COMMAND.COM_QUERY, "ROLLBACK")
+  File "D:\Forms\venv\Lib\site-packages\pymysql\connections.py", line 840, in _execute_command
+    raise err.InterfaceError(0, "")
+pymysql.err.InterfaceError: (0, '')
+2023-12-14 19:24:55,293 - ERROR - Endpoint: /user/delete, Method: DELETE, Data:{'user_id': 5}, Some error ocoured:
+Traceback (most recent call last):
+  File "D:\Forms\assets\db.py", line 32, in execute_query
+    self.cursor.execute(query)
+  File "D:\Forms\venv\Lib\site-packages\pymysql\cursors.py", line 148, in execute
+    while self.nextset():
+          ^^^^^^^^^^^^^^
+  File "D:\Forms\venv\Lib\site-packages\pymysql\cursors.py", line 98, in nextset
+    return self._nextset(False)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Forms\venv\Lib\site-packages\pymysql\cursors.py", line 85, in _nextset
+    conn = self._get_db()
+           ^^^^^^^^^^^^^^
+  File "D:\Forms\venv\Lib\site-packages\pymysql\cursors.py", line 67, in _get_db
+    raise err.ProgrammingError("Cursor closed")
+pymysql.err.ProgrammingError: Cursor closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Forms\routes\user_routes.py", line 52, in del_user
+    response,status = delete_user_transaction(data)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Forms\transactions\user.py", line 39, in delete_user_transaction
+    delete_user(db,data.get("user_id"))
+  File "D:\Forms\queries\user.py", line 14, in delete_user
+    result = db.execute_query(query)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Forms\assets\db.py", line 41, in execute_query
+    self.connection.rollback()
+  File "D:\Forms\venv\Lib\site-packages\pymysql\connections.py", line 487, in rollback
+    self._execute_command(COMMAND.COM_QUERY, "ROLLBACK")
+  File "D:\Forms\venv\Lib\site-packages\pymysql\connections.py", line 840, in _execute_command
+    raise err.InterfaceError(0, "")
+pymysql.err.InterfaceError: (0, '')
